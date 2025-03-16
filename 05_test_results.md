@@ -61,7 +61,7 @@ PORT    STATE    SERVICE
 Command:
 nmap -p 22 172.22.161.36 from an **allowed** IP
 
-📌 **Screenshot:** `screenshots/nmap_allowed_ip.png`
+📌 ![Nmap Allowed IP](screenshots/nmap_allowed_ip.png)
 
 Expected Output:
 PORT    STATE    SERVICE

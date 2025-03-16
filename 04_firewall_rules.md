@@ -25,7 +25,7 @@ sudo ufw default deny incoming
 sudo ufw default allow outgoing
 # Allows all outgoing traffic, so the system can still access the internet.
 
-📌 **Screenshot:** `screenshots/firewall_policies.png`
+📌 ![Firewall Policies](screenshots/firewall_policies.png)
 
 ---
 
@@ -34,7 +34,7 @@ Command:
 sudo ufw allow from <YOUR_IP> to any port 22
 # Replace <YOUR_IP> with your actual IP address (found using 'hostname -I').
 
-📌 **Screenshot:** `screenshots/allow_ssh.png`
+📌 ![Allow SSH](screenshots/allow_ssh.png)
 
 ---
 
@@ -46,7 +46,7 @@ sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
 # Allows traffic on port 443 (HTTPS).
 
-📌 **Screenshot:** `screenshots/allow_http_https.png`
+📌 ![Allow HTTP and HTTPS](screenshots/allow_http_https.png)
 
 ---
 
@@ -55,7 +55,7 @@ Command:
 sudo ufw status verbose
 # Checks if the firewall rules are correctly applied.
 
-📌 **Screenshot:** `screenshots/firewall_status_after.png`
+📌 ![Firewall Status After](screenshots/firewall_status_after.png)
 
 ---
 
@@ -64,8 +64,8 @@ Command:
 nmap -p 22,80,443 <YOUR_IP>
 # Scans the system to check which ports are open or closed.
 
-📌 **Screenshot:** `screenshots/nmap_before.png` (Before applying firewall rules)  
-📌 **Screenshot:** `screenshots/nmap_after.png` (After applying firewall rules)  
+📌 ![Nmap Before Applying Firewall Rules](screenshots/nmap_before.png) 
+📌 ![Nmap After Applying Firewall Rules](screenshots/nmap_after.png)  
 
 ---
 
@@ -74,7 +74,7 @@ Command:
 sudo ufw deny 22/tcp
 # This command blocks SSH access.
 
-📌 **Screenshot:** `screenshots/block_ssh.png`
+📌 ![Block SSH](screenshots/block_ssh.png)
 
 ---
 
@@ -90,6 +90,6 @@ Command:
 sudo ufw disable
 # Completely disables the firewall (not recommended for security reasons).
 
-📌 **Screenshot:** `screenshots/disable_firewall.png`
+📌 ![Disable Firewall](screenshots/disable_firewall.png)
 
 ---
