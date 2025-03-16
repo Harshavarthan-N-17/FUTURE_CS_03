@@ -4,7 +4,7 @@
 Command:
 nmap -p 22,80,443 172.22.161.36
 
-📌 **Screenshot:** `screenshots/nmap_before.png`
+📌 ![Nmap Before Applying Firewall Rules](screenshots/nmap_before.png)
 
 Expected Output (Example):
 Starting Nmap 7.92 ( https://nmap.org ) at 2025-03-16 10:00 IST
@@ -25,7 +25,7 @@ PORT    STATE    SERVICE
 Command:
 nmap -p 22,80,443 172.22.161.36
 
-📌 **Screenshot:** `screenshots/nmap_after.png`
+📌 ![Nmap After Applying Firewall Rules](screenshots/nmap_after.png)
 
 Expected Output (Example):
 Starting Nmap 7.92 ( https://nmap.org ) at 2025-03-16 10:10 IST
@@ -46,7 +46,7 @@ PORT    STATE    SERVICE
 Command:
 nmap -p 22 172.22.161.36
 
-📌 **Screenshot:** `screenshots/nmap_blocked_port.png`
+📌 ![Block SSH](screenshots/block_ssh.png)
 
 Expected Output:
 PORT    STATE    SERVICE
