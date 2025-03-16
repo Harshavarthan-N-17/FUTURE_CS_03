@@ -12,9 +12,12 @@ sudo ufw --version
 📌 If UFW is installed, this command will display the version number.
 📌 If you see "command not found", UFW is not installed. Proceed with the installation in Step 2.
 
+---
+
 ## 📌 Step 2: Install UFW (If Not Installed)
 If UFW is missing, install it using the following command:
 
+---
 
 sudo apt update && sudo apt install ufw -y
 📌 Explanation:
