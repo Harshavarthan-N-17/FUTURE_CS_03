@@ -12,7 +12,8 @@ Command:
 sudo ufw status verbose
 # Displays the current firewall rules and settings.
 
-📌 **Screenshot:** `screenshots/firewall_status.png`
+📌 ![Screenshot](screenshots/firewall_status.png)
+
 
 ---
 
