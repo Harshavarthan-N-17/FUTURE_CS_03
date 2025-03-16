@@ -11,7 +11,7 @@ The following rules were configured:
 - **Allowed Services**: SSH (22), HTTP (80), HTTPS (443).
 - **Blocked IPs**: Restricted SSH access from certain IPs.
 
-### 🔗 Reference: [`firewall_rules.md`](firewall_rules.md)
+### 🔗 Reference: [firewall_rules.md](firewall_rules.md) 
 
 ---
 
@@ -25,7 +25,7 @@ The firewall was tested using **Nmap**. Below are the key findings:
 | HTTPS (Port 443) open for all | ✅ Open | ✅ Open |
 | SSH blocked for denied IPs | ❌ Closed | ❌ Closed |
 
-### 🔗 Reference: [`test_results.md`](test_results.md)
+### 🔗 Reference: [test_results.md](test_results.md)  
 
 ---
 
