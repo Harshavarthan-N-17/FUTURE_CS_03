@@ -21,5 +21,4 @@ sudo apt update && sudo apt install ufw -y
 
 sudo apt update → Updates package lists.
 sudo apt install ufw -y → Installs UFW automatically.
-📌 Screenshot: screenshots/ufw_installation.png
 📌 This ensures the firewall package is installed on your system.
